@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Leadership | ITSM Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#121a2b;
+      --muted:#9aa4b2;
+      --text:#e6eaf2;
+      --primary:#4f8cff;
+      --accent:#22c55e;
+      --border:rgba(255,255,255,0.08);
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:'Inter',sans-serif;background:linear-gradient(180deg,#0b1220 0%,#0e1627 100%);color:var(--text)}
+    a{text-decoration:none;color:inherit}
+    .container{max-width:1150px;margin:auto;padding:24px}
+
+    header{display:flex;justify-content:space-between;align-items:center;padding:20px 0}
+    .logo{font-weight:700;font-size:20px}
+    .cta-btn{background:var(--primary);padding:10px 16px;border-radius:8px;color:#fff;font-weight:600}
+
+    .hero{padding:80px 0;text-align:center}
+    .hero h1{font-size:42px;margin-bottom:15px}
+    .hero p{color:var(--muted);font-size:18px;max-width:700px;margin:auto}
+    .hero .cta-btn{margin-top:25px;display:inline-block}
+
+    .grid{display:grid;gap:20px}
+    .grid-3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+
+    .card{background:var(--card);border:1px solid var(--border);padding:24px;border-radius:16px}
+    .card h3{margin-top:0}
+    .price{font-size:28px;margin:15px 0;color:#fff}
+    .muted{color:var(--muted)}
+
+    .section{padding:60px 0}
+    .section h2{text-align:center;margin-bottom:40px}
+
+    ul{padding-left:18px}
+    li{margin-bottom:8px}
+
+    .badge{background:rgba(79,140,255,0.15);padding:6px 10px;border-radius:6px;font-size:12px;color:var(--primary)}
+
+    footer{padding:30px 0;text-align:center;color:var(--muted);border-top:1px solid var(--border)}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div class="logo">swebz.info</div>
+    <a href="mailto:info@swebz.info" class="cta-btn">Book Meeting</a>
+  </header>
+
+  <section class="hero">
+    <h1>ITSM & IT Leadership for Growing Companies</h1>
+    <p>Get senior-level IT strategy, cost control, and security without hiring a full-time IT manager ot ITMS Manager.</p>
+    <a href="mailto:info@swebz.info" class="cta-btn">Get in touch</a>
+  </section>
+
+  <section class="section">
+    <h2>Core Packages</h2>
+    <div class="grid grid-3">
+
+      <div class="card">
+        <span class="badge">Audit</span>
+        <h3>IT Health Check</h3>
+        <div class="price">€800</div>
+        <ul>
+          <li>Infrastructure & security audit</li>
+          <li>Cloud cost review</li>
+          <li>Risk assessment</li>
+          <li>30-day roadmap</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="badge">Popular</span>
+        <h3>Core Monthly</h3>
+        <div class="price">€1,500/mo</div>
+        <ul>
+          <li>IT strategy & roadmap</li>
+          <li>Vendor & license management</li>
+          <li>Security oversight</li>
+          <li>Ongoing advisory</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <span class="badge">Full Service</span>
+        <h3>Premium</h3>
+        <div class="price">€3,000/mo</div>
+        <ul>
+          <li>Weekly leadership support</li>
+          <li>Incident escalation</li>
+          <li>Hiring & scaling IT</li>
+          <li>Full IT ownership</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>ITSM Packs (Operational Add-ons)</h2>
+    <div class="grid grid-3">
+
+      <div class="card">
+        <h3>Starter ITSM Pack</h3>
+        <div class="price">€600</div>
+        <ul>
+          <li>Ticketing setup</li>
+          <li>Basic SLA definitions</li>
+          <li>User onboarding/offboarding flow</li>
+          <li>Knowledge base setup</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Advanced ITSM Pack</h3>
+        <div class="price">€1,200</div>
+        <ul>
+          <li>Incident & problem management</li>
+          <li>Change management workflows</li>
+          <li>Automation rules</li>
+          <li>Reporting dashboards</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Enterprise ITSM Pack</h3>
+        <div class="price">€2,500</div>
+        <ul>
+          <li>Full ITIL-aligned processes</li>
+          <li>Service catalog</li>
+          <li>Asset & CMDB setup</li>
+          <li>Audit-ready documentation</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Why Work With Me</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>Reduce Costs</h3><p class="muted">Cut unnecessary cloud and SaaS spend.</p></div>
+      <div class="card"><h3>Improve Security</h3><p class="muted">Implement best practices and reduce risk.</p></div>
+      <div class="card"><h3>Bring Structure</h3><p class="muted">Clear processes, documentation, and control.</p></div>
+    </div>
+  </section>
+
+  <section class="section" style="text-align:center">
+    <h2>Ready to Fix Your IT?</h2>
+    <p class="muted">Start with a free consultation and get a clear action plan.</p>
+    <a href="mailto:info@swebz.info" class="cta-btn">Book a Call</a>
+  </section>
+
+  <footer>
+    swebz.info © 2026 - IT Leadership | ITSM Services
+  </footer>
+
+</div>
+
+</body>
+</html>
